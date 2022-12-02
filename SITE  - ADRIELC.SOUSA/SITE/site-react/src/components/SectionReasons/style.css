@@ -3,10 +3,12 @@
     margin-top: 0;
 }
 #reasons .reasons-content {
-    display: flex;
-    flex-direction: row;
+    display: inline;
     justify-content: space-between;
-    margin-bottom: 24px;
+    color: #8AC6D0;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: right;
 }
 #reasons .reasons-content .reason {
     width: 100%;

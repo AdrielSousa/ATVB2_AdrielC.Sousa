@@ -2,26 +2,23 @@ import './style.css';
 
 const especialistas = [
     {
-        nome: 'Tutu Williams',
-        cidade: 'London',
-        descricao: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium error, labore odio facilis quasi quaerat debitis qui fugit pariatur neque voluptatibus consequatur similique hic saepe perspiciatis tempore, delectus beatae eligendi!'
+        nome: 'Pato Branco ',
+        cidade: 'Av. Tupi, 5777 - São Cristóvão, Pato Branco - PR, 85507-000',
     },
     {
-        nome: 'Mark Zion',
-        cidade: 'New York City',
-        descricao: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium error, labore odio facilis quasi quaerat debitis qui fugit pariatur neque voluptatibus consequatur similique hic saepe perspiciatis tempore, delectus beatae eligendi!'
+        nome:'Francisco Beltrão',
+        cidade: 'R. Ten. Camargo, 1815 - Centro, Francisco Beltrão - PR, 85601-610',
     },
     {
-        nome: 'Essien Crest',
-        cidade: 'Berlin',
-        descricao: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium error, labore odio facilis quasi quaerat debitis qui fugit pariatur neque voluptatibus consequatur similique hic saepe perspiciatis tempore, delectus beatae eligendi!'
+        nome: 'Chopinzinho, PR',
+        cidade: 'São José, Chopinzinho - PR, 85560-000',
     }
 ];
 
 export function SectionSpecialists() {
     return (
         <section id="specialists">
-            <h2>Converse com um Especialista</h2>
+            <h2>Onde Nos Encontrar</h2>
             <div className="specialists-content">
 
                 { especialistas.map((item,index) => (
